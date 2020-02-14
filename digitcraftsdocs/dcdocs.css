@@ -1,13 +1,40 @@
 
 ul {
     list-style-type: none;
-    background-color: darkgrey;
-    color: white;
+    background-color: rgb(97, 92, 92);
+    color: lightgray;
     height: 500px;
     width: 15%;
+    text-align: justify;
+}
+/*Still trying to get a hold of margins & placements*/
+/*Also, wrapping my head around divs, spans, boxes, class & id's and when to best use them*/
+.class {
+    height: 900px;
+    width: 30px;
+    flex-direction: column;
+    float: left;
 }
 
-.class {
-    height: 500px;
-    width: 20%;
+.box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed; top: 0%; left: 30%;
+    
+}
+
+body {
+    background-color: rgb(250, 241, 241);
+    
+}
+.content {
+    float: right;
+    text-align: left;
+    width: 900px;
+    justify-content: center;
+    position: fixed; top: 10%;left: 30%;
+}
+span {
+    background-color: darkgrey;
 }
